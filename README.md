@@ -28,7 +28,7 @@
 默认设计稿宽度为：750
 
 - `config.fixedDigits` 保留几位小数
-- `config.baseWidth` 设计稿宽度
-- `config.cursor` 指针样式
-- `config.vwColor` vw的字体颜色
-- `config.remColor` rem的字体颜色
+- `config.baseWidth`   设计稿宽度
+- `config.cursor`      指针样式
+- `config.vwColor`     vw的字体颜色
+- `config.remColor`    rem的字体颜色
