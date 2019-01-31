@@ -2,7 +2,7 @@
   "name": "px2remvw",
   "publisher": "qianlifeng",
 	"displayName": "px2remvw",
-  "version": "0.0.10",
+  "version": "0.0.12",
   "license": "MIT",
   "licenseUrl": "LICENSE",
   "description": "把px转成rem 或vw，并且能显示rem、vw对应的px值",
@@ -14,7 +14,12 @@
     "px to rem",
     "px to vw",
     "px2vw",
-    "px2rem"
+    "px2rem",
+    "px to",
+    "rem to px",
+    "vw to px",
+    "vw2px",
+    "rem2px"
   ],
   "repository": {
     "type": "git",
