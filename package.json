@@ -1,18 +1,29 @@
 {
-  "name": "px2rem_vw",
-  "publisher": "px2remvw",
-	"displayName": "px change vw rem",
-	"description": "",
-  "version": "0.0.1",
+  "name": "px2remvw",
+  "publisher": "qianlifeng",
+	"displayName": "px2remvw",
+  "version": "0.0.9",
   "license": "MIT",
   "licenseUrl": "LICENSE",
+  "description": "把px转成rem 或vw，并且能显示rem、vw对应的px值",
+  "keywords": [
+    "rem",
+    "vw",
+    "px vw",
+    "px rem",
+    "px to rem",
+    "px to vw",
+    "px2vw",
+    "px2rem"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/qianlfeg1st/px2remvw_vscode_extension.git"
   },
 	"engines": {
 		"vscode": "^1.30.0"
-	},
+  },
+  "icon": "icon.png",
 	"categories": [
 		"Other"
 	],
