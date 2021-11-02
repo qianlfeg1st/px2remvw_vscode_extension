@@ -1,6 +1,12 @@
 import * as vscode from 'vscode'
-const { baseWidth, fixedDigits } = vscode.workspace.getConfiguration('config')
+const { baseWidth, fixedDigits, remUnit } = vscode.workspace.getConfiguration('config')
 
+/**
+ * @description: 
+ * @param {String} text 输入的px值
+ * @param {any} vscode
+ * @return {*}
+ */
 function pxToVwRem (text: String, vscode: any) {
 
   const rePx: RegExp = /([-]?[\d.]+)p(x)?/
@@ -31,9 +37,9 @@ function vwToPx (text: String) {
 
 function remToPx (text: String) {
 
-  const rem: number = +text.split('rem')[0]
+  const rem: number = +text.split('rem')[0] // 拿到rem的数值
 
-  return `${Math.round(baseWidth / 10 * rem)} px`
+  return `${Math.round(remUnit * rem)} px`
 }
 
 export {
