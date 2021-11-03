@@ -16,7 +16,7 @@ function pxToVwRem (text: String, vscode: any) {
 
   const pxValue = +(match[1])
   const vwValue = +(match[1] / (baseWidth / 100)).toFixed(fixedDigits)
-  const remValue = +(vwValue / 10).toFixed(fixedDigits)
+  const remValue = +(match[1] / remUnit).toFixed(fixedDigits)
 
   return {
     px: `${pxValue}px`,
