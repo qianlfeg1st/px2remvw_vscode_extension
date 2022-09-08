@@ -1,7 +1,7 @@
 {
-  "name": "px2remvw",
+  "name": "px2remvw2",
   "publisher": "fncheng",
-  "displayName": "px2remvw",
+  "displayName": "px2remvw2",
   "version": "0.0.13",
   "license": "MIT",
   "licenseUrl": "LICENSE",
@@ -23,7 +23,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/qianlfeg1st/px2remvw_vscode_extension.git"
+    "url": "https://github.com/fncheng/px2remvw_vscode_extension.git"
   },
   "engines": {
     "vscode": "^1.46.0"
